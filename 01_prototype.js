@@ -2,7 +2,7 @@ const person = new Object({
   name: 'Ivan',
   age: 30,
   greet: function() {
-    console.log('Greet!');
+    console.log('Greet!')
   }
 })
 
