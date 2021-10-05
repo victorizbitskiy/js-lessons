@@ -44,7 +44,8 @@ const person = Object.create(
       get() {
         return new Date().getFullYear() - this.birthYear // -> person.age  <- 30
       },
-      set(value) {
+      set(value) { 
+        // ?
       }
     }
   })
