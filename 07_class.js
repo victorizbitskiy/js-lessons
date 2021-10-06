@@ -73,6 +73,7 @@ class Component {
   }
 }
 
+// Наследование
 class Box extends Component {
   constructor(options) {
     super(options.selector)
