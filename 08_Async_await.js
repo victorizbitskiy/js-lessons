@@ -24,11 +24,19 @@ const url = 'https://jsonplaceholder.typicode.com/todos/1'
 // Async await
 
 async function fetchAsyncTodos() {
-  console.log('Fetch todo started...');
-  await delay(2000) // равносильно выполнению промиса
-  const response = await fetch(url)
-  const data = await response.json()
-  console.log('Data:', data);
+  console.log('Fetch todo started...')
+
+  try {
+    await delay(2000) // равносильно выполнению промиса
+    const response = await fetch(url)
+    const data = await response.json()
+  } catch (e) {
+    console.error(e);
+  } finally {
+    
+  }
+
+  console.log('Data:', data)
 }
 
 fetchAsyncTodos()
