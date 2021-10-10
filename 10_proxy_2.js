@@ -60,7 +60,7 @@ const IndexArray = new Proxy(Array, {
   }
 })
 
-
+// users - это обычный массив, у которого еще есть карта, и это ускоряет работу с массивом. 
 const users = new IndexArray(userData)
 users.push({ id: 55, name: 'Sergey' })
 users.findById(55)
