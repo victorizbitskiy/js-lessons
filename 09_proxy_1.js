@@ -39,7 +39,8 @@ const op = new Proxy(person, {
   }
 })
 
-// FUnctions
+// Functions
+
 const log = text => `log: ${text}`
 
 const fp = new Proxy(log, {
