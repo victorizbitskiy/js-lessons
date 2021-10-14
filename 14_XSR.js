@@ -1,3 +1,5 @@
+// Есть библиотеки с более удобный api, но внутри они используют XSR (XMLHttpRequest)
+
 const requestURL = 'https://jsonplaceholder.typicode.com/users' // фейк онлайн REST api
 
 const xsr = new XMLHttpRequest()
