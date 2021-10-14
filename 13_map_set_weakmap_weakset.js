@@ -180,7 +180,7 @@ visits
 .add(users[1])
 
 
-users.splice(1, 1)  // Удаляем элементы начиная с 1го и всего 1
+users.splice(1, 1)  
 
 console.log(visits.has(users[0]))
 console.log(visits.has(users[1]))
