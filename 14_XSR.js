@@ -26,7 +26,7 @@ xsr.open('GET', requestURL)
 
 // xsr.send()
 
-// Добавим провисы
+// Добавим промисы
 
 function sendRequest(method, url, body = null) {
   return new Promise((resolve, reject) => {
