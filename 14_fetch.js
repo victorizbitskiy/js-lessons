@@ -1,3 +1,5 @@
+// Метод fetch() поддерживается не всеми браузерами
+
 const requestURL = 'https://jsonplaceholder.typicode.com/users' // фейк онлайн REST api
 const headers = {
   'Content-Type': 'application/json'
