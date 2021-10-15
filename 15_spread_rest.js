@@ -25,7 +25,6 @@ const citiesEuropeWithPopulation = {
 // // Для сравнения раньше это можно было сделать так:
 // const allCities = citiesEurope.concat(citiesRussia)
 
-
 // Spread также позволяет работать с объектами
 
 // console.log(...citiesRussiaWithPopulation) // будет ошибка
@@ -49,6 +48,7 @@ const citiesEuropeWithPopulation = {
 // console.log(nodes, Array.isArray(nodes))  // true, т.к. nodes это уже массив
 
 // // Rest оператор (остаток)
+
 // function sum(a, b) {
 //   return a + b
 // }
@@ -77,7 +77,7 @@ const numbers = [1, 2, 3, 4, 5]
 const [a, b, ...other] = numbers
 console.log(a, b, other) // <- 1 2 3 4 5
 
-// 
+// Пример работы с объектами
 
 const person = {
   name: 'Max',
