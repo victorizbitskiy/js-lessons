@@ -28,7 +28,6 @@
 // console.log(sum, mult, other) // <- 52 420 [4.2] "Вычитания нет"
 
 // Деструктуризация объектов
-
 const person = {
   name: 'Max',
   age: 20,
@@ -60,7 +59,6 @@ const person = {
 // }
 
 // Можно так:
-
 function logPerson({name: firstName = 'Mad', age}) {
   console.log(firstName + ' ' + age)
 }
