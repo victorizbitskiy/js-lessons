@@ -40,7 +40,8 @@ window.addEventListener('storage', event => {
 // 2 способ синхронизации
 // window.onstorage = () => {}
 
-// Отличия localStorage отличается от cookies
+// Часто задаваемый вопрос на собеседовании:
+// Чем отличается localStorage от cookies?
 
 // 1) localStorage намного больше. Обычно это около 5 Мб
 // 2) cookies улетают на сервер. Это не безопасно.
